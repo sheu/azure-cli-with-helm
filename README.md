@@ -3,5 +3,5 @@ Image with azure cli and helm
 
 After failing to find an image that has both azure cli and Helm, this is my creation
 
-# Building
-``docker build . -t HELM_VERSION``
+# Run image
+``docker run  -it sheu/azure-cli-with-helm.git``
