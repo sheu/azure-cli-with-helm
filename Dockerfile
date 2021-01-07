@@ -1,4 +1,4 @@
-FROM azure-cli:latest
+FROM microsoft/azure-cli
 
 ARG HELM_VERSION=3.4.2
 
