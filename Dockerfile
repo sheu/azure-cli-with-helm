@@ -13,8 +13,3 @@ RUN apk add --update --no-cache curl ca-certificates && \
     chmod +x /usr/bin/helm  && \
     rm -rf linux-amd64  
 RUN rm -f /var/cache/apk/*
-
-WORKDIR /apps
-ENTRYPOINT ["helm"]
-
-CMD ["--help"]
